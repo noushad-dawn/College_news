@@ -1,0 +1,179 @@
+/* src/components/otherUserProfile.css */
+
+.fullprofile {
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling for the entire component */
+    background-color: #fafafa; /* Light background for the entire profile */
+  }
+  
+  .profile_main {
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+    padding: 20px;
+    border-bottom: 1px solid grey;
+  }
+  
+  .nav_section {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .profile_picture img {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile_content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .main_bio {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .main_bio h2 {
+    margin: 0;
+  }
+  
+  .follow-button {
+    background-color: #0095f6; /* Instagram blue */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .follow-button:hover {
+    background-color: #007bb5; /* Darker blue on hover */
+  }
+  
+  .followers {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .bio {
+    margin-top: 25px;
+    font-size: 14px;
+  }
+  
+  .bio p {
+    margin: 0;
+  }
+  
+  .post-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70vw;
+    margin: 20px 0;
+  }
+  
+  .gridy {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Set 4 equal columns */
+    width: 70%; /* Set the desired width */
+    margin: 0 auto; /* Center the grid container */
+    gap: 20px; /* Add some space between grid items */
+  }
+  
+  .modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .profile-photo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .input-file {
+    display: none;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  textarea.input-field {
+    height: 80px;
+    resize: none;
+  }
+  
+  .save-button {
+    padding: 10px 20px;
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .save-button:hover {
+    background-color: #007bb5;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .select-photo-button {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .select-photo-button:hover {
+    background-color: #007bb5;
+  }
+  

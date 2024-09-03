@@ -1,0 +1,12 @@
+.leftcompo{
+    border-right: 1px solid grey;
+    width: 341.15px;
+    
+}
+.main-search{
+    display: flex;
+    height: 100vh;
+}
+.seracrh-compo{
+    margin: 10px auto;
+}

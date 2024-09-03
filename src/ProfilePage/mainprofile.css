@@ -1,0 +1,196 @@
+.profile_picture img{
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.profile_main{
+    display: flex;
+    width: 70vw;
+    height: 40vh;
+    justify-content: center;
+    /* background-color: red; */
+    border-bottom: 1px solid grey;
+   
+}
+.nav_section{
+    /* background-color: green; */
+    width: 70%;
+    margin-top: 45px;
+    display: flex;
+    gap: 70px;
+}
+.main_bio{
+    display: flex;
+    gap: 40px;
+    height: 30px;
+    /* background-color: purple; */
+    align-items: center;
+}
+.main_bio button{
+    width: 100px;
+  height: 33px;
+  border: none;
+  border-radius: 5px;
+  font-weight: 600;
+}
+.bio{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* background-color: aqua; */
+    margin-top: 25px;
+  
+}
+
+.followers{
+    display: flex;
+    margin-top: 20px;
+    gap: 20px;
+}
+.post-logo{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    width: 70vw;
+}
+/* Add this CSS to your existing mainprofile.css file */
+
+.fullprofile {
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Enable vertical scrolling for the entire component */
+  }
+  
+  .gridy {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Set 4 equal columns */
+    width: 70%; /* Set the desired width */
+    margin: 0 140px; /* Center the grid container */
+    align-items: center; /* Align items vertically (if needed) */
+  }
+
+.modal-content {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .profile-photo-container {
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    /* background-color: #007bff; */
+  }
+  
+.input-file{
+    display: none;
+}
+  
+  .profile-photo {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  input[type="file"] {
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .form-group {
+    width: 100%;
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    transition: border-color 0.3s;
+  }
+  
+  .input-field:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  textarea.input-field {
+    height: 80px;
+    resize: none;
+  }
+  
+  .save-button {
+    padding: 10px 20px;
+    background-color: #0095f6;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .save-button:hover {
+    background-color: #007bb5;
+  }
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  .select-photo-button {
+    background-color: #0095f6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .select-photo-button:hover {
+    background-color: #007bb5;
+  }
+ 
+  /* src/components/mainprofile.css */
+.follow-button {
+  background-color: #0095f6; /* Instagram blue */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.follow-button:hover {
+  background-color: #007bb5; /* Darker blue on hover */
+}
+

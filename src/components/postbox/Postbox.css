@@ -1,0 +1,128 @@
+.instagram-post {
+  width: 70%;
+  background-color: white;
+  border-radius: 3px;
+  margin: 20px auto;
+  font-family: Arial, sans-serif;
+  height: auto; /* Adjust height based on content */
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 1px solid blue;
+}
+
+.profile-details {
+  flex-grow: 1;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.time {
+  display: block;
+  color: gray;
+  font-size: 12px;
+}
+
+.post-options {
+  cursor: pointer;
+}
+
+.post-content img {
+  width: 100%;
+  height: auto;
+}
+
+.post-content video {
+  width: 100%;
+  height: auto;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.post-actions span {
+  cursor: pointer;
+}
+
+.fa-heart{
+  font-size: 24px;
+  filter: drop-shadow(0 0 1px black);
+  color: #fff;
+}
+
+.liked {
+  color: red;
+}
+
+.post-likes,
+.post-caption,
+.post-comments {
+  padding: 0 10px;
+}
+
+.post-likes span,
+.post-comments span {
+  font-weight: bold;
+}
+
+.post-caption {
+  margin-top: 5px;
+}
+
+.post-caption .username {
+  font-weight: bold;
+}
+
+.post-comments {
+  padding: 10px;
+}
+
+.comment {
+  margin-bottom: 5px;
+}
+
+.add-comment {
+  display: flex;
+  align-items: center;
+}
+
+.add-comment input {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.add-comment button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #fff;
+  color: black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-comment button:hover {
+  background-color: #c2c2c2;
+}
+.fa-comment{
+  font-size: 24px;
+  filter: drop-shadow(0 0 1px black);
+  color: #fff;
+}

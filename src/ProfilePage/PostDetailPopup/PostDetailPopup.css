@@ -1,0 +1,124 @@
+/* src/components/PostDetailPopup.css */
+.post-detail-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popup-content {
+  background-color: white;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 8px;
+  padding: 20px;
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.profile-details {
+  flex-grow: 1;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.time {
+  display: block;
+  color: gray;
+  font-size: 12px;
+}
+
+.post-content img, .post-content video {
+  width: 100%;
+  height: auto;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.fa-heart, .fa-comment {
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.liked {
+  color: red;
+}
+
+.post-likes, .post-caption, .post-comments {
+  padding: 0 10px;
+}
+
+.post-caption {
+  margin-top: 5px;
+}
+
+.show-more {
+  color: blue;
+  cursor: pointer;
+}
+
+.post-comments {
+  padding: 10px;
+}
+
+.comment {
+  margin-bottom: 5px;
+}
+
+.add-comment {
+  display: flex;
+  align-items: center;
+}
+
+.add-comment input {
+  flex-grow: 1;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.add-comment button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #fff;
+  color: black;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.add-comment button:hover {
+  background-color: #c2c2c2;
+}

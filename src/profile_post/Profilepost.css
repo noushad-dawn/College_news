@@ -1,0 +1,38 @@
+/* src/components/Profilepost/Profilepost.css */
+.posts img {
+    height: 300px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .video-container {
+    position: relative;
+    height: 300px;
+    width: 200px;
+  }
+  
+  .p-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+  }
+  
+  .video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 48px;
+    color: white;
+    pointer-events: none;
+  }
+  
+  .video-icon i {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 18px;
+  }
+  

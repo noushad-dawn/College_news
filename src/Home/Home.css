@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+}
+
+html, body {
+    height: 100%;
+    overflow: hidden; /* Prevents body scrolling */
+}
+
+.main {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    height: 100vh; /* Ensures .main takes up the full viewport height */
+}
+
+.leftside {
+    position: sticky;
+    top: 0; /* Sticks .leftside to the top of the viewport */
+    flex: 0.4;
+    border-right: 1px solid rgb(194, 191, 191);
+    height: 100vh; /* Ensures .leftside has a height of 100% of the viewport */
+}
+
+.mid {
+    overflow-y: auto; 
+    display: flex;
+    flex: 1; /* Takes up remaining space between .leftside and .right */
+    flex-direction: column;
+    scrollbar-width: none;  /* Allows content to expand and scroll */
+}
+
+.right {
+    flex: 0.4;
+    height: 100vh; /* Ensures .right has a height of 100% of the viewport */
+}
